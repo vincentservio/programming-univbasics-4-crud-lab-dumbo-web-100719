@@ -22,7 +22,7 @@ end
 def remove_element_from_end_of_array(array)
   toons = ["trippy","dippy","flippy","skippy"]
   toons.pop 
-  p toons
+  
 end
 
 def remove_element_from_start_of_array(array)
