@@ -31,7 +31,7 @@ end
 
 describe "remove_element_from_end_of_array" do 
   it "takes in an argument of an array and removes the last element in the array" do 
-    array = ["I", "am", "really", "learning", "arrays!"]
+  
     expect(remove_element_from_end_of_array(array)).to eq("arrays!")
   end
 end
@@ -45,7 +45,7 @@ end
 
 describe "retrieve_element_from_index" do 
   it "takes in an argument of an array and an index number and returns the element stored at that index" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    
     index_number = 2
     expect(retrieve_element_from_index(array, 2)).to eq("am")
   end
